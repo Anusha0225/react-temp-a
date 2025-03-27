@@ -5,7 +5,7 @@ export default function App11() {
 
   return (
     <div style={{ textAlign: "center", marginTop: "120px" }}>
-      <h1>This ia App11</h1>
+      <h1>This is App11</h1>
       <button onClick={() => navigate("/app5")}>Go to App 5</button>
     </div>
   );

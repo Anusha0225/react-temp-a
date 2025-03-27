@@ -16,7 +16,8 @@ export default function App8() {
   }, [numbers]);
   return (
     <div>
-      <h3>This is App8</h3>
+        <center>
+      <h1>This is App8</h1>
       <p>
         <input
           type="number"
@@ -27,6 +28,7 @@ export default function App8() {
       {numbers && numbers.map((value) => <div>{value}</div>)}
       <hr></hr>
       Total:{total}
+      </center>
     </div>
   );
 }

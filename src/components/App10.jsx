@@ -2,9 +2,9 @@ import React from "react";
 import { useState } from "react";
 export default function App10() {
   const [num, setNum] = useState(0);
-  useEffect(() => {
-    if (numRef.current.style)
-  }, [num]);
+//   useEffect(() => {
+//     if (numRef.current.style)
+//   }, [num]);
   return (
     <div>
       <center>

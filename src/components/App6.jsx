@@ -37,7 +37,7 @@ export default function App6() {
               onChange={(e) => setProduct({ ...product, qty: e.target.value })}
             ></input>
           </p>
-          <button onClick={handleSubmit}>Submit</button>
+            <button onClick={handleSubmit}>Submit</button>
         </div>
         <ol className="App-Box">
           {products.map((value, index) => (

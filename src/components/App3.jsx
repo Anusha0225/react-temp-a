@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function App1() {
+export default function App3() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [msg, setMsg] = useState("");
@@ -15,7 +15,7 @@ export default function App1() {
 
   return (
     <div>
-      <h2>This is App1</h2>
+      <h2>This is App3</h2>
       <p>{msg}</p>
       <p>
         <input

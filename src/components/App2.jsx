@@ -7,7 +7,7 @@ export default function App2() {
   const decrement = () => setCount(count - 1);
 
   return (
-    <div style={{ textAlign: "center", marginTop: "20px" }}>
+    <div style={{ textAlign: "center" }}>
       <h1>This is App2</h1>
       <h2>Count: {count}</h2>
       <button onClick={decrement} style={{ margin: "5px", padding: "10px" }}>

@@ -9,7 +9,7 @@ export default function App7() {
   };
 
   return (
-    <div>
+    <div style={{textAlign: "center"}}>
       <h1>This is App7</h1>
       <center>
         <p>

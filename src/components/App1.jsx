@@ -8,7 +8,7 @@ export default function App1() {
   };
   return (
     <div style={{ textAlign: "center" }}>
-      <h1>This is app</h1>
+      <h1>This is App1</h1>
       <p style={{ backgroundColor: "skyblue", color: "black" }}>
         This is paragraph
       </p>

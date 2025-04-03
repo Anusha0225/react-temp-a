@@ -14,7 +14,7 @@ export default function App10() {
   }, [num]);
   return (
     <div style={{textAlign: "center"}}>
-      <h3>This is App10</h3>
+      <h1>This is App10</h1>
       <p>
         <input type="number" onChange={(e) => setNum(e.target.value)}></input>
       </p>

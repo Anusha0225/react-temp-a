@@ -10,11 +10,11 @@ export default function App6() {
     setProducts(products.filter((value) => value.name != name));
   };
   return (
-    <div>
+    <div style={{ textAlign: "center" }}>
       <center>
         <h1>This is App6</h1>
-        <div className="App-Row">
-          <div className="App-Box">
+        <div className="App-Row" style={{ textAlign: "center" }}>
+          <div className="App-Box" style={{ textAlign: "center" }}>
             <p>
               <input
                 type="text"

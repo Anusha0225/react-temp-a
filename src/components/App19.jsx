@@ -1,6 +1,6 @@
 
 import React, { useState } from "react";
-// import { fromJS } from "immutable";
+import { fromJS } from "immutable";
 export default function App19() {
   const [user, setUser] = useState(fromJS({ name: "John", score: 80 }));
   const updateScore = () => {
@@ -8,7 +8,8 @@ export default function App19() {
     setUser(updatedUser);
   };
   return (
-    <div>
+    <div style={{textAlign: "center"}}>
+      <h1>This is App 19</h1>
       <h2>User Profile</h2>
       <p>Name: {user.get("name")}</p>
       <p>Score: {user.get("score")}</p>

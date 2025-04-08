@@ -1,9 +1,10 @@
 import React from "react";
-// import { FaHome,FaAddressBook  } from "react-icons/fa";
+import { CiTextAlignCenter } from "react-icons/ci";
+import { FaHome,FaAddressBook  } from "react-icons/fa";
 export default function App15() {
   return (
-    <div>
-      <h3>This is App15</h3>
+    <div style={{textAlign: "center"}}>
+      <h1>This is App15</h1>
       <div>
         <FaHome size={15} />
         <label>Home</label>
